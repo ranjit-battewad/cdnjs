@@ -15,5 +15,13 @@
     "url": "git://github.com/ojjs/oj.VimeoVideo.git"
   },
   "filename": "oj.VimeoVideo.min.js",
-  "license": "MIT"
+  "license": "MIT",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/ojjs/oj.VimeoVideo.git",
+    "basePath": "",
+    "files": [
+      "oj.VimeoVideo*.js"
+    ]
+  }
 }
